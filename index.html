@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SIM-AUS</title>
+<link rel="manifest" href="./manifest.json"><meta name="theme-color" content="#1e293b"><link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="./css/style.css"></head><body>
+<main id="login" hidden><div class="card lg"><div class="logo">AUS</div><h1>SIM-AUS</h1><p class="muted">Administrasi Ujian Sekolah</p><div id="gbtn"></div>
+<details><summary>Akses darurat</summary><form id="fd"><input name="u" placeholder="Nama pengguna" autocomplete="off"><input name="p" type="password" placeholder="Kata sandi" autocomplete="off"><button>Masuk</button></form></details></div></main>
+<div id="app" hidden><aside><div class="brand"><div class="logo">AUS</div><div><b>SIM-AUS</b><small id="sname"></small></div></div><nav id="nav"></nav><div class="foot"><small id="me"></small><button id="inst" class="b2" hidden>Pasang di HP</button><button class="b2" onclick="logout()">Keluar</button></div></aside>
+<section><header><button id="ham" class="b2">☰</button><small class="mono">ADMINISTRASI UJIAN</small></header><div id="view"></div></section></div>
+<dialog id="dlg"></dialog><div id="toast"></div>
+<script src="./js/config.js"></script><script src="./js/app.js"></script></body></html>
