@@ -24,3 +24,5 @@ dialog{border:1.5px solid var(--p);border-radius:8px;padding:20px;width:min(420p
 .lbl{display:inline-block;border:1px dashed #000;width:200px;padding:10px;margin:4px;text-align:center}.lbl b{font-size:26px;display:block}.nomor{text-align:center}.nomor h1{font-size:110px}
 @media(max-width:900px){aside{position:fixed;left:-250px;z-index:9;transition:.2s}body.nav aside{left:0}header{display:flex;gap:10px;align-items:center;margin-bottom:12px}.grid4{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}section{padding:14px}}
 @media print{aside,header,.bar2,.form-row,#toast,h1.noprint{display:none!important}section{padding:0}#view>h1,#view>.card.form-row{display:none}.pg{border:0;margin:0;max-width:none}body{background:#fff}}
+
+[hidden]{display:none!important}
